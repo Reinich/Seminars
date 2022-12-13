@@ -4,7 +4,7 @@
         array[i] = new Random().Next(-9, 10);
 }
 
-void RealeaseArray(int [] array)
+void ReleaseArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
         array[i] = array[i] * (-1);
@@ -16,5 +16,5 @@ int n = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[n];
 InputArray(array);
 Console.WriteLine($"[{string.Join(", ", array)}]");
-RealeaseArray(array);
+ReleaseArray(array);
 Console.WriteLine($"[{string.Join(", ", array)}]");
