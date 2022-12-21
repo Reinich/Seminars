@@ -9,7 +9,7 @@ string ReleaseArray(int[] array, int k) // То, что возвращает, т
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i] == k)
-            return "Это число есть в массиве";
+            return $"{array[i]} Это число есть в массиве";
     }
     return "Этого числа нет в массива";
 }
