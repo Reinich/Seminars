@@ -14,8 +14,8 @@ void InputMatrix(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
             matrix[i, j] = new Random().Next(-10, 11);
-        OutputMatrix(matrix);
     }
+    OutputMatrix(matrix);
 }
 
 void ReplaceString(int[,] matrix)
